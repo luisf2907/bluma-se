@@ -25,7 +25,7 @@ app = FastAPI(
 # Configurar CORS para permitir requisições do frontend React
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000", "http://localhost:3001", "http://localhost:3002"],  # Frontend React
+    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000", "http://localhost:3001", "http://localhost:3002", "https://admirable-moxie-57f00e.netlify.app", "https://bluma-se.com.br"],  # Frontend React
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
